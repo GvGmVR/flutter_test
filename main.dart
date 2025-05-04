@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ProfileWidget(),
+      home: const ProfileWidget(),   //Replace with AuctionPage()
     );
   }
 }
